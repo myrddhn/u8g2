@@ -8,7 +8,8 @@
 #include "freertos/task.h"
 
 #include "u8g2_esp8266_hal.h"
-#include "../../../../../esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h"
+//#include "../../../../../esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h"
+#include "rom/ets_sys.h"
 
 
 static const char *TAG = "u8g2_hal";
